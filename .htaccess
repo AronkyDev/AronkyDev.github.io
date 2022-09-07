@@ -1,1 +1,1 @@
-RedirectMatch 301 /aronkydev.github.io/ /deltafoxtmike.github.io/
+RewriteCond %{HTTP_HOST} ^(.\*)$ https://deltafoxtmike.github.io/$1 [L,R=301]
