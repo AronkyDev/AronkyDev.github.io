@@ -1,1 +1,2 @@
-RewriteCond %{HTTP_HOST} ^(.\*)$ https://deltafoxtmike.github.io/$1 [L,R=301]
+# Permanent redirect:
+Redirect permanent "https://aronkydev.github.io" "https://deltafoxtmike.github.io"
